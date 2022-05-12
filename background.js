@@ -3,3 +3,5 @@ chrome.runtime.onMessage.addListener(
       chrome.tabs.remove(sender.tab.id);
     }
   );
+
+  test
